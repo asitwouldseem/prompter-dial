@@ -1811,7 +1811,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "PROMPTER WHEEL V2.1\nCAMERON-MORGAN.COM"
+	(gr_text "PROMPTER DIAL V2.1\nCAMERON-MORGAN.COM"
 		(at 77.31875 128.8625 90)
 		(layer "B.SilkS")
 		(uuid "7e6c2be6-501a-49a9-85ea-b8057581e60d")
