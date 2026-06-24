@@ -5,161 +5,6 @@
 	(uuid "997b5c03-e735-4bef-8d39-e5347afb159d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1384,12 +1229,6 @@
 		(uuid "2f00a267-04e1-4321-a1b7-755b9cb75b2c")
 	)
 	(junction
-		(at 237.49 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36d46b30-4fed-4dab-b0bc-475936bed3ee")
-	)
-	(junction
 		(at 119.38 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1402,28 +1241,22 @@
 		(uuid "966d44a6-e662-46eb-86a9-8a8c70c42459")
 	)
 	(junction
-		(at 231.14 41.91)
+		(at 205.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d00b1c11-45dc-4f6c-b7ff-d0dc7ebd2dc5")
 	)
 	(junction
-		(at 222.25 41.91)
+		(at 191.77 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e78fa4ef-fd7a-4818-b56b-136a06a609bb")
+		(uuid "d6b71835-b049-40e3-9eb0-d427282b476c")
 	)
 	(junction
 		(at 119.38 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea3e6158-9d11-4dfd-a109-6b42547a1d7b")
-	)
-	(junction
-		(at 217.17 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ceef3a-4475-4896-82eb-0f53f33945d4")
 	)
 	(junction
 		(at 119.38 50.8)
@@ -1450,16 +1283,6 @@
 			(type default)
 		)
 		(uuid "08900ba8-61ea-4d8b-88ee-c673ea6abd74")
-	)
-	(wire
-		(pts
-			(xy 194.31 46.99) (xy 217.17 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0967aba6-6d1f-4285-ac22-81231828b0c9")
 	)
 	(wire
 		(pts
@@ -1503,13 +1326,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 222.25 41.91)
+			(xy 181.61 60.96) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b784ad3-0b5c-4f6c-a199-b00b5844a339")
+		(uuid "36b097c2-d834-4107-8b18-be106d21bb19")
 	)
 	(wire
 		(pts
@@ -1543,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 41.91) (xy 231.14 41.91)
+			(xy 213.36 60.96) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1613,16 +1436,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 41.91) (xy 222.25 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be86e16b-dfc6-4a0c-9690-fe33a16d5216")
-	)
-	(wire
-		(pts
 			(xy 119.38 124.46) (xy 119.38 127)
 		)
 		(stroke
@@ -1633,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 44.45) (xy 243.84 44.45)
+			(xy 213.36 63.5) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1643,27 +1456,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 46.99) (xy 237.49 46.99)
+			(xy 181.61 66.04) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3ce17a7-a948-42c6-b20c-5270b8a0338b")
+		(uuid "bf7c7a66-41f8-4164-a0be-9642c298d62c")
 	)
 	(wire
 		(pts
-			(xy 237.49 46.99) (xy 237.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a9f03c-4aea-4106-aa81-945f4003dcdb")
-	)
-	(wire
-		(pts
-			(xy 237.49 46.99) (xy 246.38 46.99)
+			(xy 191.77 66.04) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 38.1) (xy 217.17 46.99)
+			(xy 191.77 57.15) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1700,16 +1503,6 @@
 			(type default)
 		)
 		(uuid "e61dbbb9-4998-42f2-b56b-6a603f75adc8")
-	)
-	(wire
-		(pts
-			(xy 222.25 41.91) (xy 222.25 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77f4d0d-f2e9-4eaa-aedb-8fd6d0b8c68f")
 	)
 	(wire
 		(pts
@@ -1753,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 38.1) (xy 231.14 41.91)
+			(xy 205.74 57.15) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 44.45) (xy 243.84 57.15)
+			(xy 205.74 63.5) (xy 205.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1576,7 @@
 	)
 	(global_label "ENC_A"
 		(shape input)
-		(at 204.47 41.91 180)
+		(at 181.61 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1793,7 +1586,7 @@
 		)
 		(uuid "02ac2d97-d22f-449f-b996-b3390a1734ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6791 41.91 0)
+			(at 172.8191 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +1672,7 @@
 	)
 	(global_label "ENC_B"
 		(shape input)
-		(at 186.69 46.99 180)
+		(at 181.61 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1887,9 +1680,9 @@
 			)
 			(justify right)
 		)
-		(uuid "399a451f-1834-4e5b-9f03-dc4365b5dbf9")
+		(uuid "25377d6a-9536-4f57-9def-71cb88e3f176")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 46.99 0)
+			(at 172.6377 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,7 +1946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 57.15 0)
+		(at 205.74 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2163,8 +1956,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1121326e-0fec-4c29-93ce-c20426f36083")
-		(property "Reference" "#PWR013"
-			(at 243.84 63.5 0)
+		(property "Reference" "#PWR015"
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,7 +1968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 62.23 0)
+			(at 205.74 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2185,7 +1978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 57.15 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +1989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 57.15 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 57.15 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2016,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2024,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 254 44.45 0)
+		(at 220.98 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2241,8 +2034,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b2c2dd-54d0-46d2-84fb-ce694c737399")
-		(property "Reference" "SW4"
-			(at 260.35 43.1799 0)
+		(property "Reference" "SW5"
+			(at 227.33 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2253,7 +2046,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder"
-			(at 260.35 45.7199 0)
+			(at 227.33 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2264,7 +2057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 40.386 0)
+			(at 217.17 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 37.846 0)
+			(at 220.98 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2079,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 254 44.45 0)
+			(at 220.98 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2308,7 +2101,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2326,7 +2119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184216e6-e5a1-4fa4-abd2-c30d3d8e31cd")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2386,7 +2179,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2471,84 +2264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f2575c0-e226-49ef-986b-2b4232ecd888")
-		(property "Reference" "#PWR010"
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "311bae32-60b6-47f2-923b-ca78ba3b95e5")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 142.24 73.66 0)
 		(unit 1)
@@ -2560,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45db3809-a40c-42bf-aa2a-532e6b7cc056")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2620,7 +2335,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2638,7 +2353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482d6f72-44d2-4147-9295-e65baac4a40f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 142.24 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2698,7 +2413,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2785,168 +2500,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 190.5 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51a94235-cb55-4d0e-b847-830e9a1b044d")
-		(property "Reference" "R4"
-			(at 190.5 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 190.5 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 48.768 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8464e2cf-8c36-4a42-b400-25e4ad1855f9")
-		)
-		(pin "2"
-			(uuid "a49f510f-4c30-4653-85e7-145be3b3da92")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bfe52f4-456a-4346-af28-2f25ce61bd19")
-		(property "Reference" "R5"
-			(at 208.28 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 208.28 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 43.688 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "454b5952-fc3c-4c76-aefe-77e661b481f8")
-		)
-		(pin "2"
-			(uuid "45b511cd-6680-4a93-ac65-aba09903f4fd")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 217.17 30.48 0)
+		(at 191.77 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2956,8 +2511,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "675b6377-00d0-4120-a6f1-791c6568ee43")
-		(property "Reference" "#PWR09"
-			(at 217.17 34.29 0)
+		(property "Reference" "#PWR011"
+			(at 191.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2523,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 217.17 25.4 0)
+			(at 191.77 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2978,7 +2533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 30.48 0)
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +2544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 30.48 0)
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +2555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 30.48 0)
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +2571,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3192,7 +2747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9683b31c-1e0c-4dda-bb42-bc26ab07c746")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 130.81 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +2809,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3344,7 +2899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 34.29 0)
+		(at 205.74 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3354,8 +2909,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97b78197-bf76-4ab3-a81b-4bebd377e2ab")
-		(property "Reference" "R7"
-			(at 233.68 33.0199 0)
+		(property "Reference" "R6"
+			(at 208.28 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3366,7 +2921,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 233.68 35.5599 0)
+			(at 208.28 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +2932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.362 34.29 90)
+			(at 203.962 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,7 +2943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 34.29 0)
+			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3399,7 +2954,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 34.29 0)
+			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,85 +2973,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a04d6f71-8852-4efb-aba1-bee82f30bc47")
-		(property "Reference" "#PWR012"
-			(at 237.49 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1812f02f-03bb-40f5-a23e-0140ddc33cb5")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR012")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3514,7 +2991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6acf753-ff91-486c-bba2-3d8604d68843")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3051,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3139,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 231.14 30.48 0)
+		(at 205.74 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3672,8 +3149,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae15dcf1-2c14-4cfd-8822-a40e0e67cc23")
-		(property "Reference" "#PWR011"
-			(at 231.14 34.29 0)
+		(property "Reference" "#PWR013"
+			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3161,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 231.14 25.4 0)
+			(at 205.74 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3694,7 +3171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 30.48 0)
+			(at 205.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 30.48 0)
+			(at 205.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +3193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 30.48 0)
+			(at 205.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3209,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3811,87 +3288,6 @@
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 222.25 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7340b44-3ceb-4609-a628-a0c56d1c1a0e")
-		(property "Reference" "C1"
-			(at 218.186 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 218.186 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.2152 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 222.25 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6b4e268-43a1-4121-927e-ef87daaa8cd5")
-		)
-		(pin "2"
-			(uuid "a8346409-fcf4-445c-956f-0e558fa0c335")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4061,7 +3457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 34.29 0)
+		(at 191.77 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4071,8 +3467,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc506471-e1f7-46e3-9b32-0b88dca968df")
-		(property "Reference" "R6"
-			(at 219.71 33.0199 0)
+		(property "Reference" "R5"
+			(at 194.31 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4083,7 +3479,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 219.71 35.5599 0)
+			(at 194.31 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +3490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.392 34.29 90)
+			(at 189.992 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 34.29 0)
+			(at 191.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +3512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 34.29 0)
+			(at 191.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +3531,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4321,87 +3717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 237.49 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d01521d2-babe-4c92-af74-47135201b92e")
-		(property "Reference" "C2"
-			(at 233.426 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 233.426 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.4552 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 237.49 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e180ff6c-adb3-468b-afed-6f7ba0d0c54e")
-		)
-		(pin "2"
-			(uuid "84ec2f35-a26e-4f3d-a0e0-eb66821d0409")
-		)
-		(instances
-			(project "prompter-dial"
-				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 142.24 96.52 0)
 		(unit 1)
@@ -4413,7 +3728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8da70ab-264c-4539-b90a-7ac88b239b98")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4473,7 +3788,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4491,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76b87cb-08bb-4dce-9be7-cd74d4a76375")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 121.92 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,7 +3870,7 @@
 		(instances
 			(project "prompter-dial"
 				(path "/997b5c03-e735-4bef-8d39-e5347afb159d"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
