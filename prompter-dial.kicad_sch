@@ -1838,7 +1838,7 @@
 			)
 		)
 	)
-	(global_label "JUMP_F"
+	(global_label "JUMP"
 		(shape input)
 		(at 73.66 87.63 0)
 		(fields_autoplaced yes)
@@ -1850,7 +1850,7 @@
 		)
 		(uuid "076a1db0-8c03-4369-89a5-6d0571a222e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.7209 87.63 0)
+			(at 81.6647 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,7 +1862,7 @@
 			)
 		)
 	)
-	(global_label "JUMP_B"
+	(global_label "JUMP"
 		(shape input)
 		(at 113.03 69.85 180)
 		(fields_autoplaced yes)
@@ -1874,7 +1874,7 @@
 		)
 		(uuid "0cd013bf-4271-49de-9421-8c43fc25e2c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.7877 69.85 0)
+			(at 105.0253 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Value" "JUMP_B"
+		(property "Value" "JUMP"
 			(at 130.81 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
